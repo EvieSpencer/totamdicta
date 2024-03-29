@@ -1,0 +1,35 @@
+{
+  "name": "totamdicta",
+  "description": "Polywrap JavaScript Client Monorepo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvieSpencer/totamdicta.git"
+  },
+  "workspaces": {
+    "packages": [
+      "./packages/**"
+    ]
+  },
+  "devDependencies": {
+    "@types/prettier": "2.6.0",
+    "@types/rimraf": "3.0.0",
+    "@typescript-eslint/eslint-plugin": "4.11.1",
+    "@typescript-eslint/parser": "4.11.1",
+    "eslint": "7.16.0",
+    "eslint-config-prettier": "7.1.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-json": "3.0.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "graphql": "15.5.0",
+    "lerna": "4.0.0",
+    "prettier": "2.2.1",
+    "ts-node": "10.9.1",
+    "rimraf": "3.0.2"
+  },
+  "author": "JohannaChristiansen",
+  "bugs": {
+    "url": "https://github.com/EvieSpencer/totamdicta.git/issues"
+  },
+  "version": "1.0.0"
+}
